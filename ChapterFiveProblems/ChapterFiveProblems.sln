@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChapterFiveProblems", "Chap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerList", "IntegerList\IntegerList.csproj", "{0261C602-85F1-400A-B25F-766C4EF83B5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckZips", "CheckZips\CheckZips.csproj", "{C348E857-C80D-442B-AB57-A8FFEDD3165A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{0261C602-85F1-400A-B25F-766C4EF83B5A}.Debug|x86.Build.0 = Debug|x86
 		{0261C602-85F1-400A-B25F-766C4EF83B5A}.Release|x86.ActiveCfg = Release|x86
 		{0261C602-85F1-400A-B25F-766C4EF83B5A}.Release|x86.Build.0 = Release|x86
+		{C348E857-C80D-442B-AB57-A8FFEDD3165A}.Debug|x86.ActiveCfg = Debug|x86
+		{C348E857-C80D-442B-AB57-A8FFEDD3165A}.Debug|x86.Build.0 = Debug|x86
+		{C348E857-C80D-442B-AB57-A8FFEDD3165A}.Release|x86.ActiveCfg = Release|x86
+		{C348E857-C80D-442B-AB57-A8FFEDD3165A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
