@@ -9,12 +9,13 @@ namespace IntegerList
     {
         static void Main(string[] args)
         {
-            int[] grades = new int[5];
+            int[] integers = new int[5] { 5, 6, 7, 8, 9 };
 
-            for (int i = 0; i < grades.Length; i++)
+            for (int i = 0; i < integers.Length; i++)
             {
-                grades[i] = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine(grades);
+                Array.Sort(integers);
+                Array.Reverse(integers);
+                Console.WriteLine("{0}", integers[i]);
                 
             }
         }
